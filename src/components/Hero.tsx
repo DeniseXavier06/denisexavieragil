@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Linkedin, Github, FileText } from "lucide-react";
+import { Mail, Linkedin, FileText, BookOpen } from "lucide-react";
+import { Link } from "react-router-dom";
 import profilePhoto from "@/assets/denise-photo.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
-
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -65,6 +65,17 @@ const Hero = () => {
               >
                 <FileText className="mr-2 h-5 w-5" />
                 Ver Experiência
+              </Button>
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="border-secondary/50 bg-secondary/20 backdrop-blur-sm text-white hover:bg-secondary/30 hover:border-secondary transition-smooth"
+                asChild
+              >
+                <Link to="/portfolio">
+                  <BookOpen className="mr-2 h-5 w-5" />
+                  Portfólio
+                </Link>
               </Button>
             </div>
             
