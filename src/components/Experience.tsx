@@ -15,6 +15,7 @@ const Experience = () => {
         "Gestão completa de produtos digitais governamentais",
         "Integrações complexas com GovBr, SEI, FalaBr, SUITE e BNDES",
         "Desenvolvimento de chatbot com IA para atendimento cidadão",
+        "Engenharia de Requisitos e Modelagem de Banco de Dados",
         "Criação de dashboards no Power BI para KPIs estratégicos",
         "Liderança técnica e gestão de backlog em projetos estratégicos"
       ],
@@ -28,8 +29,9 @@ const Experience = () => {
       achievements: [
         "Disciplinas: Engenharia de Software, UX, Qualidade de Software e Modelagem",
         "Mentoria de projetos com aplicação de Scrum, Kanban e Design Thinking",
-        "Ex-coordenadora dos cursos de TI e da Comissão Própria de Avaliação (CPA)",
-        "Orientação de TCC com metodologias ágeis e BPMN"
+        "Ex-coordenadora dos cursos de TI",
+        "Coordenadora da Comissão Própria de Avaliação (CPA)",
+        "Orientação de TCC com metodologias ágeis, Engenharia de Software e Projestos de Interface com ênfase experimentos",
       ],
       technologies: ["Scrum", "Kanban", "Design Thinking", "BPMN", "UX Design"]
     }
@@ -38,14 +40,14 @@ const Experience = () => {
   const education = [
     {
       degree: "Mestrado em Ciência da Computação",
-      institution: "Universidade Federal da Bahia (UFBA)",
+      institution: "Universidade Federal de Sergipe (UFS)",
       period: "2017 - 2019",
       description: "Foco em Governança Ágil em TIC"
     },
     {
-      degree: "Especialização em Gestão de Projetos",
-      institution: "UniRios",
-      period: "2011 - 2012",
+      degree: "Especialização em Banco de Dados",
+      institution: "Universidade Gama Filho",
+      period: "2010 - 2013",
       description: "Gestão de Projetos e Metodologias Ágeis"
     },
     {

@@ -71,6 +71,8 @@ const About = () => {
                   <li>• Gestão de backlog e roadmap</li>
                   <li>• Métricas e KPIs de desempenho</li>
                   <li>• BPMN e modelagem de processos</li>
+                  <li>• Engenharia de Requisitos</li>
+                  <li>• Modelagem de Banco de Dados</li>
                   <li>• Prototipação e UX</li>
                 </ul>
               </div>

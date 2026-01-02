@@ -75,7 +75,7 @@ const Skills = () => {
     {
       name: "Certified Scrum Master® (CSM)",
       issuer: "Scrum Alliance",
-      year: "2023",
+      year: "2025",
       badge: "CSM"
     },
     {
